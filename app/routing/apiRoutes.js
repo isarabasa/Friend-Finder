@@ -6,8 +6,11 @@ module.exports = function(app) {
         res.json(friendData);
         console.log("friendData[0].scores[0]: " + friendData[0].scores[0]);    
     });
-}
 
 app.post("/api/friends", function(req, res){
     console.log(req.body);
-})
+    });
+
+// MISSING CODE...
+    
+};
